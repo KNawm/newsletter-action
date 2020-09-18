@@ -107,8 +107,8 @@ async function run() {
   try {
     const subjectLine = core.getInput("subject");
     const contactList = core.getInput("list_id");
-    const unsubscribeGroup = core.getInput("suppression_group_id");
-    const sender = core.getInput("sender_id");
+    const unsubscribeGroup = parseInt(core.getInput("suppression_group_id"));
+    const sender = parseInt(core.getInput("sender_id"));
 
     const html = await render();
 
