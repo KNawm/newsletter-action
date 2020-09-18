@@ -1,0 +1,15 @@
+name: 'Newsletter'
+description: 'Send a newsletter'
+inputs:
+  list_id:
+    description: 'the recipient List ID that will receive the newsletter'
+    required: true
+  suppression_group_id:
+    description: 'the ID of the Suppression Group to allow recipients to unsubscribe'
+    required: true
+  sender_id:
+    description: 'the ID of the verified Sender'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

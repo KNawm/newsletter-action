@@ -1,0 +1,24 @@
+{
+  "name": "newsletter-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js -o dist --source-map --license licenses.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KNawm/newsletter-action.git"
+  },
+  "author": "Tomás Arias <hi@tomasarias.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KNawm/newsletter-action/issues"
+  },
+  "homepage": "https://github.com/KNawm/newsletter-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.5",
+    "@zeit/ncc": "^0.22.3"
+  }
+}
