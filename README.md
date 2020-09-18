@@ -80,4 +80,8 @@ You need to trigger the workflow manually going to the Actions page of your repo
 
 ![](https://user-images.githubusercontent.com/7613080/93563874-2408fe80-f95f-11ea-8563-ff75fb7899a9.png)
 
-Once it's triggered it will send to your list of recipients the contents of the README of the repo.
+Once it's triggered it will send the content of your README to your list of recipients after 5 minutes.
+
+If it's working you can enter [here](https://mc.sendgrid.com/single-sends) and you should see your email scheduled:
+
+![](https://user-images.githubusercontent.com/7613080/93564437-1011cc80-f960-11ea-9335-80ce665cb1a1.png)
