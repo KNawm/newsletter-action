@@ -1,6 +1,9 @@
 name: 'Newsletter'
 description: 'Send a newsletter'
 inputs:
+  subject:
+    description: 'the subject line of the newsletter'
+    required: true
   list_id:
     description: 'the recipient List ID that will receive the newsletter'
     required: true
