@@ -8,6 +8,7 @@ function render() {
     port: null,
     path: `/repos/${process.env.GITHUB_REPOSITORY}/readme`,
     headers: {
+      "user-agent": "KNawm",
       accept: "application/vnd.github.VERSION.html",
     },
   };
@@ -119,7 +120,7 @@ async function run() {
       },
       email_config: {
         subject: subjectLine,
-        html_content: html,
+        html_content: html.toString(),
         generate_plain_content: true,
         suppression_group_id: unsubscribeGroup,
         sender_id: sender,
