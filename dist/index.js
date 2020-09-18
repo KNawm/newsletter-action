@@ -172,7 +172,6 @@ async function run() {
     const sender = core.getInput("sender_id");
 
     const html = await render();
-    console.log(html.toString());
 
     const payload = JSON.stringify({
       name: subjectLine,
