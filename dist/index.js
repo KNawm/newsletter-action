@@ -90,7 +90,6 @@ function render() {
       });
     });
 
-    req.write();
     req.end();
   });
 }
